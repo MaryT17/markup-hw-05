@@ -1,0 +1,254 @@
+a, p {
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+a[href]:hover {
+    color: #4D5AE5;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 800;
+    margin-right: 76px;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.header-menu-link {
+
+    font-weight: 500;
+}
+
+.order {
+    background-color: #2E2F42;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;  
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url("../images/peopleoffice.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+.order-heading {
+
+    font-weight: 700;
+    font-size: 56px;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 16px 32px;
+}
+
+a .service-item {
+    font-size: 20px;
+}
+
+.header-what-we-do, .header-team {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.photo-team {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    letter-spacing: .32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    display: flex;
+}
+
+.social-media {
+    margin-left: 120px;
+}
+
+.footer-inner {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ row-gap: 72px;
+
+}
+
+footer p {
+    color: #F4F4FD;
+    letter-spacing: .32px;
+}
+
+footer .logo {
+    color: #F4F4FD;
+}
+
+footer .team-socials {
+    gap: 16px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.customer-icon {
+    /* background-color: #4D5AE5;
+    border-radius: 50%; */
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-icon svg {
+    fill: #8E8F99;
+}
+
+.container {
+    /* width: 1158px;
+    height: 72px;
+
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC); */
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        /* margin-left: auto; */
+        margin-right: auto;
+}
+
+.header-menu {
+    gap: 40px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-contact {
+    gap: 40px;
+    /* display: flex; */
+    margin-left: auto;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    /* display: flex; */
+    width: 1158px;
+    height: 72px;
+    padding-left: 100px;
+    /* justify-content: space-around; */
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);  
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section ul {
+    justify-content: center;
+    gap: 24px;
+
+}
+
+ul.service {
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 260px;
+}
+
+.service-icon {
+    background-color:#F4F4FD;
+    border-radius: 4px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.team {
+    background-color:#F4F4FD;
+
+}
+
+.team-members {
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.team-social-icon {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-social-icon svg {
+    fill: white;
+} 
+
+.team-socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-team {
+    border-radius: 0px 0px 4px 4px;
+    background-color:#FFF;
+    padding-bottom: 32px;
+}
